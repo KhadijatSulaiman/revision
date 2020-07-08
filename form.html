@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h3>Place Your Order...</h3>
+    </div>
+    <form method="GET" action="index.html">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="address" id="address" name="address">
+        </div>
+        <div>
+            <label for="snacks">Snacks</label>
+            <select name="snacks" id="snacks" multiple>
+                <option value="samosa" >Samosa</option>
+                <option value="springrolls">Springrolls</option>
+                <option value="doughnut">Doughnut</option> 
+                <option value="cake">Cakes</option>
+                <option value="waffles">Waffles</option>
+                <option value="pancake">Pancake</option>
+            </select>
+        </div>
+        <div>
+            <label for="pieces">Pieces</label>
+            <input type="number"name="pieces" id="pieces" min="10">
+        </div>
+        <div>
+            <label for="meals">Meals</label>
+            <select name="meals" id="meals" multiple>
+                <option value="fried rice">Fried Rice</option>
+                <option value="spagetti">Spagetti</option>
+                <option value="jollof rice">Jollof RIce</option>
+                <option value="chinise rice">Chimise Rice</option>
+                <option value="chicken">Chicken</option>
+                <option value="fish">Fish</option>
+            </select>
+        </div>
+        <div>
+            <label for="serving">Serving</label>
+            <input type="number"name="serving" id="serving" min="1">
+        </div>
+        <div></div>
+            <input type="submit"name="Order" id="order">
+        </div>
+    </form>
+</body>
+</html>
